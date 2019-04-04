@@ -2,11 +2,7 @@
 
 ---
 
-Download
-Games
-Tutorials
-KindlyRat
-Is BASIC best?
+[Download](Download.md) | [Games](Games.md) | [Tutorials](Tutorials.md) | [KindlyRat](KindlyRat.md) | [Mouse Support](MouseSupport.md) | [Links](Links.md) | [Is BASIC best?](IsBasicBest.md)
 
 ---
 
