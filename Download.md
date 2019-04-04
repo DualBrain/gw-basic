@@ -26,7 +26,7 @@ GW-BASIC was last released in 1988 as you can see from any screenshot of its sta
 
 Don't lose hope, because this is where emulators come in.
 
-[DOSBox](http://dosbox.com) is the premier DOS emulator with the best support and works on multiple platforms. You'll just need a passing knowledge of DOS and how a filesystem works, but otherwise running in an emulator is straight forward, like running a virtual PC from ye olden times inside your fancy new toy.
+[DOSBox](https://www.dosbox.com) is the premier DOS emulator with the best support and works on multiple platforms. You'll just need a passing knowledge of DOS and how a filesystem works, but otherwise running in an emulator is straight forward, like running a virtual PC from ye olden times inside your fancy new toy.
 
 *[Carlos Vazquez](http://laislapr.tk/) adds: The closest thing there is to a 64 bit gw basic is qb64 (a 64 bit clone of quick basic) i havent tested if qb64 runs gwbasic programs (quickbasic could run them and even save them in binary form) ([QB64](http://www.qb64.net))*
 
