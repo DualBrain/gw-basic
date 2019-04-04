@@ -1,8 +1,6 @@
 ## GW-BASIC Games
 
----
-
-[Download](Download.md) | [Games](Games.md) | [Tutorials](Tutorials.md) | [KindlyRat](KindlyRat.md) | [Mouse Support](MouseSupport.md) | [Links](Links.md) | [Is BASIC best?](IsBasicBest.md)
+[Home](https://gw-basic.com) | [Tutorials](Tutorials.md) | [Games](Games.md) | [Resources](Resources.md) | [FAQ](FAQ.md)
 
 ---
 
