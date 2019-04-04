@@ -153,23 +153,23 @@ Also, you can put an ELSE after a compound statement like this and even do an EL
 
 An intrepid programmer named Don wrote to ask how to stop a running program:
 
-    What I want to do is permanently assign a key to end a running program. Im finding that on some keyboards ctrl C works on others ctrl break and on my logitech ex100 there is a fn key next to the right ctrl key . using those two keys plus the break key also works on some programs where neither other combination works.
+*What I want to do is permanently assign a key to end a running program. Im finding that on some keyboards ctrl C works on others ctrl break and on my logitech ex100 there is a fn key next to the right ctrl key . using those two keys plus the break key also works on some programs where neither other combination works.*
 
 I didn't know the answer, and so gave him a bit of the run around with my meager knowledge, but later he came back with it himself:
 
-    I have found the solution for stopping a running program. As i mentioned the ctrl+c and Ctrl+break combinations dont work. The solution i found after reading the source code preparing to apply patches is so simple i should have thought of it.
+*I have found the solution for stopping a running program. As i mentioned the ctrl+c and Ctrl+break combinations dont work. The solution i found after reading the source code preparing to apply patches is so simple i should have thought of it.*
 
-    The key combo that works in every instance i have tried is ctrl + scroll lock
+*The key combo that works in every instance i have tried is ctrl + scroll lock*
     
 I've tried this myself on DOSbox in Ubuntu and sure enough it interrupts the program every time. All this time I've simply given up if a program hit an infinite loop that I couldn't break out of and re-coded what I'd neglected to save after killing the process. Thanks Don, what a time saver!
 
 Today I was still curious about this and did a quick search, coming up with this post on VOGONS:
 
-   I have a little trick for those interested: use Ctrl-ScrollLock, it behaves like Ctrl-Break with many BASIC interpreters running within DOSBox. It works with GW-BASIC, BASICA (often bundled with compatible DOSes like Compaq's), QBasic, QuickBasic, and possibly other development "workbench" interfaces.
+*I have a little trick for those interested: use Ctrl-ScrollLock, it behaves like Ctrl-Break with many BASIC interpreters running within DOSBox. It works with GW-BASIC, BASICA (often bundled with compatible DOSes like Compaq's), QBasic, QuickBasic, and possibly other development "workbench" interfaces.*
 
-   The reason this works is a little complicated, so only read on if you're interested in knowing. DOSBox does not have true Ctrl-Break handling like real DOS, which is a combination of hardware and software interrupts and internal flags. However, the DOS Ctrl-Break handler is only a default handler that all starts with INT 9, the keyboard hardware interrupt. Many of the program development apps hook INT 9 and intercept keys before DOS sees them, so they can do their own processing. After all, the DOS default behavior for Ctrl-Break is to terminate the app, and that is often not what is wanted. The INT 9 handler code looks for the Control key being depressed by checking the shift status byte in BIOS data, and then reads scancodes from the keyboard data port 60h. The scancode for ScrollLock is 46h, and the scancode for Ctrl-Break is a 2-byte "escaped" sequence of E0h 46h, where E0h is the escape code. It seems the handler routines are often not very rigorous in their processing of the escape code, and just drop it, so Ctrl-ScrollLock ends up working the same as Ctrl-Break.
+*The reason this works is a little complicated, so only read on if you're interested in knowing. DOSBox does not have true Ctrl-Break handling like real DOS, which is a combination of hardware and software interrupts and internal flags. However, the DOS Ctrl-Break handler is only a default handler that all starts with INT 9, the keyboard hardware interrupt. Many of the program development apps hook INT 9 and intercept keys before DOS sees them, so they can do their own processing. After all, the DOS default behavior for Ctrl-Break is to terminate the app, and that is often not what is wanted. The INT 9 handler code looks for the Control key being depressed by checking the shift status byte in BIOS data, and then reads scancodes from the keyboard data port 60h. The scancode for ScrollLock is 46h, and the scancode for Ctrl-Break is a 2-byte "escaped" sequence of E0h 46h, where E0h is the escape code. It seems the handler routines are often not very rigorous in their processing of the escape code, and just drop it, so Ctrl-ScrollLock ends up working the same as Ctrl-Break.*
 
-   A lucky break for us!
+*A lucky break for us!*
 
 ---
 
@@ -325,30 +325,30 @@ A couple days ago I hit pay dirt with Microsoft Knowledge Base article 45699: [C
 
 Debbie writes:
 
-    I was hoping I could find someone on line to help me with an old GW Basic program I have. I need it to print to a usb port. A few years ago with the help of a very kind man on line He helped me make the program print from a dot matrix to a laser. But all the new computers have only usb ports for printers. I do have one parrellell port on one computer but I cannot get it to work probably because it going thru windows. any advice would be very much appreciated
+*I was hoping I could find someone on line to help me with an old GW Basic program I have. I need it to print to a usb port. A few years ago with the help of a very kind man on line He helped me make the program print from a dot matrix to a laser. But all the new computers have only usb ports for printers. I do have one parrellell port on one computer but I cannot get it to work probably because it going thru windows. any advice would be very much appreciated.*
 
 Neil comments:
 
-    I'm not sure, but printing isn't a direct function of GW-BASIC, rather it's handled by the underlying operating system. If you haven't looked into DOSbox, an emulator that will run on Windows, then I would start there and maybe ask on their forums. What you want is to map the old DOS printer port somehow and GW-BASIC itself won't "know" the difference.
+*I'm not sure, but printing isn't a direct function of GW-BASIC, rather it's handled by the underlying operating system. If you haven't looked into DOSbox, an emulator that will run on Windows, then I would start there and maybe ask on their forums. What you want is to map the old DOS printer port somehow and GW-BASIC itself won't "know" the difference.*
 
 Ron comments
 
-    Printfil will do what you want.
+*Printfil will do what you want.*
 
-    Easier yet is to just send your text to a file using BASIC, then open that file using NOTEPAD and print it out in WINDOWS.
+*Easier yet is to just send your text to a file using BASIC, then open that file using NOTEPAD and print it out in WINDOWS.*
 
 Anthony comments
 
-    I have tried dos2usb and good for me
+*I have tried dos2usb and good for me.*
 
 Hank comments
 
-    Under the printer properties, if you select the ports and enable printer pooling, you should be able to print from the dos window without any special driver to the default printer. You may need to check the LPT1 port for the dos window to print to it and the pooling will redirect it to the other selected port.
+*Under the printer properties, if you select the ports and enable printer pooling, you should be able to print from the dos window without any special driver to the default printer. You may need to check the LPT1 port for the dos window to print to it and the pooling will redirect it to the other selected port.*
 
 Mike comments
 
-    Dos2Prn and Dos2Usb. The 1st works best 4 me in all cases. http://www.dosprn.com/
+*Dos2Prn and Dos2Usb. The 1st works best 4 me in all cases. http://www.dosprn.com/*
 
 Edward Bronson comments
 
-    Go to windows printer setup. Choose the share all printers option. (or it's equivalent) Then all printers become available. windows will automatically associate the first available printer with LPT1: at the time of printing. All printers become global.
+*Go to windows printer setup. Choose the share all printers option. (or it's equivalent) Then all printers become available. windows will automatically associate the first available printer with LPT1: at the time of printing. All printers become global.*
