@@ -28,7 +28,7 @@ Don't lose hope, because this is where emulators come in.
 
 [DOSBox](https://www.dosbox.com) is the premier DOS emulator with the best support and works on multiple platforms. You'll just need a passing knowledge of DOS and how a filesystem works, but otherwise running in an emulator is straight forward, like running a virtual PC from ye olden times inside your fancy new toy.
 
-*[Carlos Vazquez](http://web.archive.org/web/20160412174036/http://laislapr.tk/) adds: The closest thing there is to a 64 bit gw basic is qb64 (a 64 bit clone of quick basic) i havent tested if qb64 runs gwbasic programs (quickbasic could run them and even save them in binary form) ([QB64](http://www.qb64.net))*
+*[Carlos Vazquez](http://web.archive.org/web/20160412174036/http://laislapr.tk/) adds: The closest thing there is to a 64 bit gw basic is qb64 (a 64 bit clone of quick basic) i havent tested if qb64 runs gwbasic programs (quickbasic could run them and even save them in binary form) ([QB64](https://www.qb64.org/))*
 
 ---
 
@@ -62,7 +62,7 @@ Microsoft created GW-BASIC version 3.23 in 1987 and that was the last official, 
 
 Microsoft OLDDOS.EXE contains QBasic (which can run most GW-BASIC programs saved as ASCII) and several other "old DOS" utilities.
 
-This was mirrored from http://support.microsoft.com/kb/135315.
+This was mirrored from [http://support.microsoft.com/kb/135315](http://support.microsoft.com/kb/135315).
 
 ---
 
@@ -70,9 +70,10 @@ This was mirrored from http://support.microsoft.com/kb/135315.
 
 GW-BASIC for modern incarnations of Windows and Linux? Yes! Here is an email from the project's creator Rob.
 
-Hi, I thought you might enjoy my newly released project PC-BASIC 3.23.
+Hi, I thought you might enjoy my newly released project [PC-BASIC 3.23](https://sourceforge.net/projects/pcbasic/).
 
 It's essentially an open source clone of the GW-BASIC 3.23 interpreter; since it's python-based, it runs on most OSes including Windows and Linux.
+
 It is largely feature complete (including sound, graphics, file I/O, and loading and saving 'protected' programs) though still under active development. Have fun!
 
 ---
