@@ -6,6 +6,10 @@
 
 ---
 
+> Please note that much of this content was rescued from http://web.archive.org.
+> New updates will be made now that the domain has been transfered to me.
+> If you have any content related to GW-BASIC, please let me know [here](https://github.com/dualbrain/gw-basic).
+
 ### About this site
 
 ![GW-BASIC](https://gw-basic.com/gwbasic-screen.png)
