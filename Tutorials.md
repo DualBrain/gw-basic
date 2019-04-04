@@ -85,7 +85,7 @@ SCREEN() **returns 32 instead of 0** for uninitialized parts of the text screen 
 
 ON KEY([11,12,13,14]) **trap presses on number pad arrows** and not the main arrow keys. This was a real annoying bug to fix because it meant I had to add INKEY$ checking to my game-loop which I had hoped to avoid entirely. You'd think that adding a custom key trap would work, but it doesn't. The arrow keys simply will not be trapped with ON KEY which appears to me to be a colossal bug.
 
-**Duplicate line numbers cause it to complain.* This is actually a good thing and helped me find a problem I introduced by editing my source outside of GW-BASIC. It always pays to double-check your work, even if it's a single line! I made this change and like an insane idiot, checked it in thinking I couldn't possibly have done anything wrong. GW-BASIC, when I tried it, simply overwrites the first occurrence with the second and off you go thinking all is swell.
+**Duplicate line numbers cause it to complain.** This is actually a good thing and helped me find a problem I introduced by editing my source outside of GW-BASIC. It always pays to double-check your work, even if it's a single line! I made this change and like an insane idiot, checked it in thinking I couldn't possibly have done anything wrong. GW-BASIC, when I tried it, simply overwrites the first occurrence with the second and off you go thinking all is swell.
 
 CHAIN **no longer has** ALL, DELETE, **or** MERGE **options** in QB. Bummer if you used GW-BASIC's reliance on line numbers to your advantage with several modules.
 
