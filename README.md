@@ -1,6 +1,6 @@
-# GW-BASIC: Gee Whiz!
+## GW-BASIC: Gee Whiz!
 
-[Home](https://gw-basic.com) | [Download](Download.md) | [Games](Games.md) | [Tutorials](Tutorials.md) | [KindlyRat](KindlyRat.md) | [Mouse Support](MouseSupport.md) | [Links](Links.md) | [Is BASIC best?](IsBasicBest.md)
+[Home](https://gw-basic.com) | [Tutorials](Tutorials.md) | [Games](Games.md) | [Resources](Resources.md) | [FAQ](FAQ.md)
 
 ---
 
@@ -47,3 +47,9 @@ I still have a couple of GW Basic and Dos books I bought, although sadly I no lo
 But there we are times change, although even nuclear power stations still use steam technology to drive the turbines and maybe, as we need to consider our energy consumption, one day Basic in some form will be used again. It would certainly reduce the load on servers moving and storing bloated files. Many business applications would work fine with numbered menu selection just requiring a key press.*
 
 *Regards, Brian Andrews. (retired)*
+
+### Tidbits
+
+- [Download](Download.md)
+- [KindlyRat](KindlyRat.md)
+- [Is BASIC best?](IsBasicBest.md)
