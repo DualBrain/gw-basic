@@ -1,6 +1,10 @@
 ## Download GW-BASIC Software
 
-Download | Games | Tutorials | KindlyRat | Mouse Support | Links | Is BASIC best? 
+---
+
+[Download](Download.md) | [Games](Games.md) | [Tutorials](Tutorials.md) | [KindlyRat](KindlyRat.md) | [Mouse Support](MouseSupport.md) | [Links](Links.md) | [Is BASIC best?](IsBasicBest.md)
+
+---
 
 ### GW-BASIC 3.23, The Last Official Release
 
