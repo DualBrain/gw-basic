@@ -8,7 +8,7 @@
 
 ### About this site
 
-![GW-BASIC](GW-BASIC.png)
+![GW-BASIC](gwbasic_screen.png)
 
 Hello, I'm Neil C. Obremski. Welcome to my attempt at a central repository on the web for all things GW-BASIC. Technically, it wasn't my first introduction to programming since I was exposed to LOGO on Apple II's in 4th grade as part of Onalaska Elementary's "Highly Capable" group. However, it struck a chord in me that has been playing a tune on down the decades ever since. And we all know, you never forget your first love.
 
