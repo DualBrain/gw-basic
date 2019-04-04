@@ -14,27 +14,27 @@ Microsoft created GW-BASIC version 3.23 in 1987 and that was the last official, 
 - gw-man.zip: GW-BASIC manual; official documentation and full command reference
 - gw-man.pdf: GW-BASIC User's Guide and Reference for Kindle and other e-readers
 
-Thomas Shaffner released Microsoft GW-BASIC User's Guide and User's Reference to the web and you can easily find copies of it.
+Thomas Shaffner released *Microsoft GW-BASIC User's Guide and User's Reference* to the web and you can easily [find copies of it](http://www.google.com/search?q=gw-basic+user+guide).
 
 ---
 
 ### GW-BASIC on Windows 7+
 
-aka "Where do I download GW-BASIC for Windows 7, 8, 10 ... ?"
+*aka "Where do I download GW-BASIC for Windows 7, 8, 10 ... ?"*
 
 GW-BASIC was last released in 1988 as you can see from any screenshot of its start screen. It's a 16-bit DOS executable that uses processor instructions no longer supported in modern, 64-bit CPU's / operating systems. Simply put: GW-BASIC.EXE cannot run directly on Windows!
 
 Don't lose hope, because this is where emulators come in.
 
-DOSBox is the premier DOS emulator with the best support and works on multiple platforms. You'll just need a passing knowledge of DOS and how a filesystem works, but otherwise running in an emulator is straight forward, like running a virtual PC from ye olden times inside your fancy new toy.
+[DOSBox](http://dosbox.com) is the premier DOS emulator with the best support and works on multiple platforms. You'll just need a passing knowledge of DOS and how a filesystem works, but otherwise running in an emulator is straight forward, like running a virtual PC from ye olden times inside your fancy new toy.
 
-Carlos Vazquez adds: The closest thing there is to a 64 bit gw basic is qb64 (a 64 bit clone of quick basic) i havent tested if qb64 runs gwbasic programs (quickbasic could run them and even save them in binary form) (www.qb64.net)
+*[Carlos Vazquez](http://laislapr.tk/) adds: The closest thing there is to a 64 bit gw basic is qb64 (a 64 bit clone of quick basic) i havent tested if qb64 runs gwbasic programs (quickbasic could run them and even save them in binary form) ([QB64](http://www.qb64.net))*
 
 ---
 
 ### Compiling GW-BASIC Programs
 
-aka "How to convert gw-basic programs to exe extension?"
+*aka "How to convert gw-basic programs to exe extension?"*
 
 What you're talking about is compiling the BAS file to an executable.
 
@@ -44,7 +44,7 @@ There are three immediate and essentially free options:
 2. QuickBASIC 4.5 is the direct successor to GW-BASIC and can handle probably 95% of all GW-BASIC programs with the exception of those that rely on more esoteric features.  
 3. FreeBASIC has little development going on but it theoretically handles almost all QB programs and so will handle GW-BASIC programs as well.  
 
-Backstory: I keep seeing this question, asked on Yahoo! Answers, come up in search results. It's two years too late and the question is set to resolved, but I had to add some more information.
+Backstory: I keep seeing this question, [asked on Yahoo! Answers](http://web.archive.org/web/20160412174036/https://answers.yahoo.com/question/index?qid=20080929193512AADtsZ0), come up in search results. It's two years too late and the question is set to resolved, but I had to add some more information.
 
 ---
 
