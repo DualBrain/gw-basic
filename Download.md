@@ -88,30 +88,30 @@ For the most part, all keywords that are not machine language specific should be
 
 ### BASIC-80 Interpreter for Windows
 
-- basic-80.zip: This comes from the pleasant Steve Pagliarulo who has graciously given me permission to attach a copy of this wonderful software he has developed. If you have any comments or questions, you can email him at s_pagliarulo AT hotmail.com.
+- [basic-80.zip](basic-80.zip): This comes from the pleasant Steve Pagliarulo who has graciously given me permission to attach a copy of this wonderful software he has developed. If you have any comments or questions, you can email him at s_pagliarulo AT hotmail.com.
 
 I too share your fondness of GW-BASIC and its father BASIC-80. I got my start on a TRS-80 with Microsoft's LEVEL II BASIC. In any case, I'd like to share with you my BASIC-80 compatible interpreter that I finished late last year. It's very close to GW-BASIC but without the graphics commands. It can also load/run many GW-BASIC programs.
 
 I've been fooling with the interpreter for about 10 years. I finally finished it because when I moved to 64-bit Windows, the 16-bit GW-BASIC .exe is no longer spported. The interpreter is about 20 thousand lines of C++ code. It is portable for the most part. Some of the OS specific APIs have to be changed for other platforms. For right now, I have it working as a 32-bit .exe on Windows. I'm thinking of porting it next to Raspberry pi.
 
-I've attached a link to a zip file with BASIC.EXE interpreter and a few sample programs including a chess program writthn for GW-BASIC. Unlike GW-BASIC, this interpreter does not have a full-screen editor. It uses the original editor from BASIC-80. To edit a line you have to use the EDIT command.
+I've attached a [link to a zip file](basic-80.zip) with BASIC.EXE interpreter and a few sample programs including a chess program writthn for GW-BASIC. Unlike GW-BASIC, this interpreter does not have a full-screen editor. It uses the original editor from BASIC-80. To edit a line you have to use the EDIT command.
 
 ---
 
-### GW-BASIC vs FreeBASIC
+### GW-BASIC vs [FreeBASIC](https://www.freebasic.net/)
 
-There are, I'm finding, significant differences between GW-BASIC and FreeBASIC. For the first, you actually have to specify -lang deprecated in order to even support line numbers. So the compatibility goal of FreeBASIC being equivalent to QBasic is immediately suspect. What I'm looking for is a compiler to create modern operating system executables (Windows XP+, Ubuntu, OS X, etc.) with full support for GW-BASIC's language, or even QB.
+There are, I'm finding, significant differences between GW-BASIC and [FreeBASIC](https://www.freebasic.net/). For the first, you actually have to specify -lang deprecated in order to even support line numbers. So the compatibility goal of [FreeBASIC](https://www.freebasic.net/) being equivalent to QBasic is immediately suspect. What I'm looking for is a compiler to create modern operating system executables (Windows XP+, Ubuntu, OS X, etc.) with full support for GW-BASIC's language, or even QB.
 
-KEY OFF not supported, for obvious reasons. QB ignores this command but FBC (FreeBASIC compiler) blows up with an error. If I can't tell it to ignore certain statements then right away I have to fork my code for a FBC version.
+**KEY OFF** not supported, for obvious reasons. QB ignores this command but FBC ([FreeBASIC](https://www.freebasic.net/) compiler) blows up with an error. If I can't tell it to ignore certain statements then right away I have to fork my code for a FBC version.
 
-KEY (#) ON/OFF and ON KEY (#) GOSUB not supported. This is really annoying, but I already made changes to support INKEY$ polling in QB so that will supposedly work in FBC.
+**KEY (#) ON/OFF** and **ON KEY (#) GOSUB** not supported. This is really annoying, but I already made changes to support INKEY$ polling in QB so that will supposedly work in [FreeBASIC](https://www.freebasic.net/).
 
-DEF FNname() not supported. You can create full-blown functions but not simple one-liners in the GW style. For me this is another indication I'll have to fork. I don't think this would be difficult for them to implement, perhaps I'll post it on their forum.
+**DEF FNname()** not supported. You can create full-blown functions but not simple one-liners in the GW style. For me this is another indication I'll have to fork. I don't think this would be difficult for them to implement, perhaps I'll post it on their forum.
 
-EXTERR() not supported. I'm not using this, but how hard would it be to support?
+**EXTERR()** not supported. I'm not using this, but how hard would it be to support?
 
-GOSUB # ... RETURN doesn't work unless you specify "-lang qb". The line number support can be enabled with "-lang deprecated" and yet if you try to call RETURN it reports "Illegal outside blah blah blah or SUB block".
+**GOSUB # ... RETURN** doesn't work unless you specify "-lang qb". The line number support can be enabled with "-lang deprecated" and yet if you try to call RETURN it reports "Illegal outside blah blah blah or SUB block".
 
-SCREEN() isn't supported. For this I don't mean the routine to switch screen modes but rather the function that returns the value at a location in the text screen buffer. It seems to think I'm declaring a variable by this name.
+**SCREEN()** isn't supported. For this I don't mean the routine to switch screen modes but rather the function that returns the value at a location in the text screen buffer. It seems to think I'm declaring a variable by this name.
 
-Perhaps the FreeBASIC team would be interested in fixing these, though probably not. Development appears to have slowed down and why would support extend so far back? Still, I wish there was something I could use without having to roll my own (which I'm considering).
+Perhaps the [FreeBASIC](https://www.freebasic.net/) team would be interested in fixing these, though probably not. Development appears to have slowed down and why would support extend so far back? Still, I wish there was something I could use without having to roll my own (which I'm considering).
