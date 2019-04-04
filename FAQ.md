@@ -14,7 +14,7 @@ With all that said, I'm particularly talking about 64-bit editions.  It is (mayb
 
 According to Jason Donahue...
 
-**As for 32-bit Windows, though, I've just gotten GW-BASIC to run on a tablet running a 32-bit version of Windows 8.1 - when first running the executable, I was prompted to install the NTVDM, after which it opened fine.**
+*As for 32-bit Windows, though, I've just gotten GW-BASIC to run on a tablet running a 32-bit version of Windows 8.1 - when first running the executable, I was prompted to install the NTVDM, after which it opened fine.*
 
 ### How to convert gw-basic programs to "exe" extension?
 
