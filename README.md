@@ -10,11 +10,12 @@
 
 ### About this site
 
-![GW-BASIC](https://gw-basic.com/gwbasic-screen.png)
+<!--![GW-BASIC](https://gw-basic.com/gwbasic-screen.png)-->
 
 {::nomarkdown}
 <iframe src="https://archive.org/embed/gwbasic.exe" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-{:/}
+{:/}  
+
 
 Howdy, I'm Cory Smith (aka DualBrain).  Welcome to (what will hopefully become) the central hub for all things related to GW-BASIC.  If you'd like to contribute to this project, please do so by visiting [here](https://github.com/dualbrain/gw-basic).
 
