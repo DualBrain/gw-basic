@@ -4,11 +4,15 @@
 
 ---
 
-> Please note that much of this content was rescued from http://web.archive.org.
-> New updates will be made now that the domain has been transfered to me.
+### NEWS ###
+
+**2020-05-21** Microsoft releases GW-BASIC circa 1983 as open source (MIT license).  You can find the official announcment [here](https://devblogs.microsoft.com/commandline/microsoft-open-sources-gw-basic/) and the [repo on github here](https://github.com/microsoft/GW-BASIC). I'll have to carve out some time to review the source. ;-)
+
+---
+
 > If you have any content related to GW-BASIC, please let me know [here](https://github.com/dualbrain/gw-basic).
 
-### About this site
+### About this site ###
 
 <!--![GW-BASIC](https://gw-basic.com/gwbasic-screen.png)-->
 
@@ -30,7 +34,7 @@ Please allow me a moment to acknowledge Neil for originally starting this site. 
 
 ---
 
-### Stories
+### Stories ###
 
 *Very interesting to come across your site.*
 
@@ -50,8 +54,8 @@ But there we are times change, although even nuclear power stations still use st
 
 *Regards, Brian Andrews. (retired)*
 
-### Tidbits
+### Tidbits ###
 
 - [Download](Download.md)
-- [KindlyRat](KindlyRat.md)
+- [KindlyRat Archive (Pages)](KindlyRat.md)
 - [Is BASIC best?](IsBasicBest.md)
