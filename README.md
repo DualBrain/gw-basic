@@ -7,6 +7,7 @@
 ### NEWS ###
 
 **2020-05-21** Microsoft releases GW-BASIC circa 1983 as open source (MIT license).  You can find the official announcment [here](https://devblogs.microsoft.com/commandline/microsoft-open-sources-gw-basic/) and the [repo on github here](https://github.com/microsoft/GW-BASIC). I'll have to carve out some time to review the source. ;-)
+**2020-12-03** The original source has now been forked with some effort going into actually building it for "real use", see [Assembling Microsoft GW-BASIC from 1983, with MASM or JWasm](https://github.com/tkchia/GW-BASIC).  Additionally, this package has been made available as part of the [QEMU Advent Calendar for 2020](https://www.qemu-advent-calendar.org/2020/) (specifically, check out day #3).  Happy holidays!
 
 ---
 
