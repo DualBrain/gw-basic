@@ -26,7 +26,7 @@ Don't lose hope, because this is where emulators come in.
 
 [DOSBox](https://www.dosbox.com) is the premier DOS emulator with the best support and works on multiple platforms. You'll just need a passing knowledge of DOS and how a filesystem works, but otherwise running in an emulator is straight forward, like running a virtual PC from ye olden times inside your fancy new toy.
 
-*[Carlos Vazquez](http://web.archive.org/web/20160412174036/http://laislapr.tk/) adds: The closest thing there is to a 64 bit gw basic is qb64 (a 64 bit clone of quick basic) i havent tested if qb64 runs gwbasic programs (quickbasic could run them and even save them in binary form) ([QB64](https://www.qb64.org/))*
+*[Carlos Vazquez](http://web.archive.org/web/20160412174036/http://laislapr.tk/) adds: The closest thing there is to a 64 bit gw basic is qb64 (a 64 bit clone of quick basic) i haven't tested if qb64 runs Qbasic programs (Quickbasic could run them and even save them in binary form) ([QB64](https://www.qb64.org/))*
 
 ---
 
@@ -90,9 +90,9 @@ For the most part, all keywords that are not machine language specific should be
 
 I too share your fondness of GW-BASIC and its father BASIC-80. I got my start on a TRS-80 with Microsoft's LEVEL II BASIC. In any case, I'd like to share with you my BASIC-80 compatible interpreter that I finished late last year. It's very close to GW-BASIC but without the graphics commands. It can also load/run many GW-BASIC programs.
 
-I've been fooling with the interpreter for about 10 years. I finally finished it because when I moved to 64-bit Windows, the 16-bit GW-BASIC .exe is no longer spported. The interpreter is about 20 thousand lines of C++ code. It is portable for the most part. Some of the OS specific APIs have to be changed for other platforms. For right now, I have it working as a 32-bit .exe on Windows. I'm thinking of porting it next to Raspberry pi.
+I've been fooling with the interpreter for about 10 years. I finally finished it because when I moved to 64-bit Windows, the 16-bit GW-BASIC .exe is no longer supported. The interpreter is about 20 thousand lines of C++ code. It is portable for the most part. Some of the OS specific APIs have to be changed for other platforms. For right now, I have it working as a 32-bit .exe on Windows. I'm thinking of porting it next to Raspberry pi.
 
-I've attached a [link to a zip file](basic-80.zip) with BASIC.EXE interpreter and a few sample programs including a chess program writthn for GW-BASIC. Unlike GW-BASIC, this interpreter does not have a full-screen editor. It uses the original editor from BASIC-80. To edit a line you have to use the EDIT command.
+I've attached a [link to a zip file](basic-80.zip) with BASIC.EXE interpreter and a few sample programs including a chess program written for GW-BASIC. Unlike GW-BASIC, this interpreter does not have a full-screen editor. It uses the original editor from BASIC-80. To edit a line you have to use the EDIT command.
 
 ---
 

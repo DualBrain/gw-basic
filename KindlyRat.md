@@ -8,11 +8,11 @@
 
 ### Geocities Archive
 
-This is a single-page reprinting of KindlyRat's popular website hosted on Geocities at http://www.geocities.com/KindlyRat/GWBASIC.html . Yahoo! shut down this webhosting service in 2009 and the only trace of the author currently apparent on the web is a defunct Blogspot: kindlyrat.blogspot.com. KindlyRat, if you're out there, please email me.
+This is a single-page reprinting of KindlyRat's popular website hosted on Geocities at http://www.geocities.com/KindlyRat/GWBASIC.html . Yahoo! shut down this web hosting service in 2009 and the only trace of the author currently apparent on the web is a defunct Blogspot: kindlyrat.blogspot.com. KindlyRat, if you're out there, please email me.
 
 -- image missing ---
 
-Download GW-BASIC here! Below we have GWBASIC 3.23, GW-BASIC Manual, Compiler, tutorials, examples and games, all absolutly free. Just click on the blue lettered selection, save and un-zip.
+Download GW-BASIC here! Below we have GWBASIC 3.23, GW-BASIC Manual, Compiler, tutorials, examples and games, all absolutely free. Just click on the blue lettered selection, save and un-zip.
 
 Welcome Modern School of Nagpur
 
@@ -34,7 +34,7 @@ OptionList.zip - a list of options for the GW-BASIC compiler (BASCOM). Some do n
 
 Compiling GW-BASIC -porting GW-BASIC to QuickBasic2.0 ( probably our compiler ).
 
-GWCOM.html - an optional list of commands. 12 Jun 2002 by KindlyRat before the above manual was recieved.
+GWCOM.html - an optional list of commands. 12 Jun 2002 by KindlyRat before the above manual was received.
 
 exil- a Linux / GW-BASIC converter.
 
@@ -112,7 +112,7 @@ note: these games are for GW-BASIC, BUT can be "LIST"ed and clipboarded and save
 - sequential.zip...demonstrates search, list first and read
 - circles.zip... random circles in SCREEN1
 - SDOFRND2.zip... predict future by random generators
-- snails.zip...population sampeling theory test
+- snails.zip...population sampling theory test
 - PIBAS.zip...PI calculation by the casino method
 - RootSumSquare.zip... prove a calculation method
 - factor.zip... finds the factors of numbers
@@ -136,11 +136,11 @@ note: these games are for GW-BASIC, BUT can be "LIST"ed and clipboarded and save
 
 *(GWCOM.html)*
 
-I'm constantly suprised by the number of people that are interested in GW Basic as judged by the number of hits I get. I have a GW Basic Users Guide and I'll attempt to list some of the commands. Some may not work on your computer
+I'm constantly surprised by the number of people that are interested in GW Basic as judged by the number of hits I get. I have a GW Basic Users Guide and I'll attempt to list some of the commands. Some may not work on your computer
 
 #### Conventions
 
-In all attemps to tell you how to enter something, <--- will mean "hit the Enter key"
+In all attempts to tell you how to enter something, <--- will mean "hit the Enter key"
 
 #### To Start GWBASIC
 
@@ -178,7 +178,7 @@ save "MyProgram" <---
 
 #### Arithmetic Operators
 
-^ exponentation
+^ exponentiation
 - negation and */+-
 
 #### Relational Operators
@@ -208,7 +208,7 @@ CHDIR "B:INVENTORY" changes directory to "INVENTORY" on B drive
 CHR$(66) convert ascii code to character, "66" is upper case B
 CINT(x) round number with decimal to next integer
 CIRCLE(100,100),50 draws a circle of radius 50 at point x100 y100
-CLEAR veriables to 0, strings to null, close open files
+CLEAR variables to 0, strings to null, close open files
 CLOSE 1,#2,#3 terminate input/output to disk file or device 1, 2, 3
 CLS clear screen
 
@@ -245,7 +245,7 @@ CSNG(x) convert x to single precision
 y=CSRLIN return cursor row position
 CVI,CVS,CVD
 DATA 3,10,5 data constants
-v$=DATE$,DATE$=V$ set or retrive current date mm-dd-yy,mm/dd/yy or yyyy
+v$=DATE$,DATE$=V$ set or retrieve current date mm-dd-yy,mm/dd/yy or yyyy
 DEF FN define & name a function written by user DEF FNAB(X,Y)=X^3/Y^2
 DEFINT/SGN/DBL/STR define as integer,single precision,double precision or string
 DEF SEG assign current segment address to be addressed by BLOAD,BSAVE,PEEK,POKE,USR
@@ -260,18 +260,18 @@ DRAW "Un;Dn;Ln;Rn;En;Fn;Gn;Hn;"
 ```
 
 Drawing starts at middle of screen in a graphics mode.
-Small n (above) is a varible representing a number or a number
+Small n (above) is a variable representing a number or a number
 U is up, D down, L left, R right, E up&right;, F down&right;, G down&left;, H up&left;
 Mx,y line is drawn from current position to point x,y M+or-x,y x&y; are added to position
 Prefixes B move but plot no points, N Move but return when done
 Commands As is Set angle 0 to 3, TA is turn angle -360 to +360, Cn is set color, Sn is scale.
-Ppaint, boundry paint is fill color, boundry is border color
+Ppaint, boundary paint is fill color, boundary is border color
 
 #### More Functions
 
 EDIT line number
 END terminate program execution. Does not print message
-ENVIRON statement. Modify perameters in string table
+ENVIRON statement. Modify perimeters in string table
 ENVIRON$ function. Retrieve environment string form table
 EOF returns -1 when end of sequential or com file is found, 0 if not found
 ERASE erase arrays from a program
@@ -284,7 +284,7 @@ FIELD(#) allocate space random file buffer
 FILES(pathname) like DIR in dos
 FIX(x) trundate x to a whole number
 FOR and NEXT for n = 1 to 10 step 2:print n:next n
-FRE(x) return avalible bites in string memory
+FRE(x) return available bites in string memory
 GET read a record from random disk file to random buffer
 GET Statement (graphics) GET (125,139)-(170-180),A 
 GOSUB...RETURN branch to & return from subroutine
@@ -295,12 +295,12 @@ A$=INKEY$ return one character from keyboard
 INP(n) return byte from port n
 INPUT "Enter BIRTHDATE",B$
 INPUT# file number,variable list
-INPUT$ return string of X characters from keaboard or file number
-INSTR search for occurance of string & return position
+INPUT$ return string of X characters from keyboard or file number
+INSTR search for occurrence of string & return position
 INT(x) truncate to a whole number
 IOCTL #1, "PL66" send "control data" string to device driver
 IOCTL$(#1) read "control data" string from open device driver
-KEY key number,string Up to 15 characters w/ one keastroke
+KEY key number,string Up to 15 characters w/ one keystroke
 KEA(n)ON,KEY(n)OFF,KEY(n)STOP
 n is 1-10 functions,11 cursor up,12 left,13right,14 down
 KILL filename delete file from disk
@@ -318,13 +318,13 @@ LINE -(RND*319,RND*199)RND*2,BF draws random lines
 
 #### More Functions
 
-LINE INPUT A$ input up to 255 from keaboard
+LINE INPUT A$ input up to 255 from keyboard
 LINE INPUT# read line from a sequential file to a string variable
 LIST 10-50 list all or part of program line numbers
 LLIST to line printer
 LOAD "MYPROGRAM" loads a file from same folder to memory
 LOC return current position in file
-LOCATE 1,1 move cursur to screen location
+LOCATE 1,1 move curser to screen location
 LOCK #n locks entire file n
 LOCK #n,X locks record X only
 LOCK #n, TO Y locks records 1 through Y
@@ -346,7 +346,7 @@ ON ERROR GOTO lineNumber
 ON ...GOSUB, ON...GOTO
 OPEN "B:TEMP" FOR INPUT AS #1
 OPEN "COM(n)
-OPTION BASE n 0 or 1 declair minimum value for array subscript, default is 0
+OPTION BASE n 0 or 1 declare minimum value for array subscript, default is 0
 OUT integer,port OUT 12345,225send a byte to output port
 
 #### PAINT
@@ -399,7 +399,7 @@ SCREEN 7 320X200 40X25 text character-box = 8X8
 SCREEN 8 640X200 80X25 text character-box = 8X8
 SCREEN 9 640X350 80X25 text character-box = 8X14
 SCREEN 10 640X350 80X25 text character-box = 8X14
-SGN(x) returns sign of x 1 is positive, 0 is 0, -1 is negitive
+SGN(x) returns sign of x 1 is positive, 0 is 0, -1 is negative
 SHELL
 SIN(x) in radians
 SOUND frequency,duration

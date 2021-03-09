@@ -157,7 +157,7 @@ An intrepid programmer named Don wrote to ask how to stop a running program:
 
 I didn't know the answer, and so gave him a bit of the run around with my meager knowledge, but later he came back with it himself:
 
-*I have found the solution for stopping a running program. As i mentioned the ctrl+c and Ctrl+break combinations dont work. The solution i found after reading the source code preparing to apply patches is so simple i should have thought of it.*
+*I have found the solution for stopping a running program. As i mentioned the ctrl+c and Ctrl+break combinations don't work. The solution i found after reading the source code preparing to apply patches is so simple i should have thought of it.*
 
 *The key combo that works in every instance i have tried is ctrl + scroll lock*
     
@@ -194,7 +194,7 @@ PRINT I%
 
 The output is 10, which can be quite a shock to long-term programmers but probably less to the newly initiated. Outside of computers we tend to round one way or the other and GW-BASIC does this for implicit conversions, but many languages truncate the result instead. That is, in C or Java the output would be 9. This is a really important snarl that has caused me no few amount of bugs, especially in conjunction with RND!
 
-CINT() is the functional corollary, that is it does exactly the same thing. I suppose you'd use it when you want to show, for readability in your program, that you really do want rounding to occur, but otherwise I believe it's unnecessary. Generally I've used CINT without realizing what it did, thinking it merely "Casted to INTeger" as one would do in C and erroneously assuming the fractional portion would be cut off and not used for rounding. My recommendation: just don't use it, since it's what GW-BASIC does automagically.
+CINT() is the functional corollary, that is it does exactly the same thing. I suppose you'd use it when you want to show, for readability in your program, that you really do want rounding to occur, but otherwise I believe it's unnecessary. Generally I've used CINT without realizing what it did, thinking it merely "Casted to INTeger" as one would do in C and erroneously assuming the fractional portion would be cut off and not used for rounding. My recommendation: just don't use it, since it's what GW-BASIC does automatically.
 
 What about FIX() and INT()? These two appear identical in that they perform truncation from fractional to whole, but there is a tiny but significant difference that could also cause numerous programming flaws. The manual states "FIX does not round off numbers, it simply eliminates the decimal point and all characters to the right of the decimal point" whereas for INT() it comments "Negative numbers return the next lowest number". In CINT it mentions both with "See the FIX and INT functions, both of which return integers".
 
