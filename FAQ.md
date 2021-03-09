@@ -10,7 +10,7 @@ Nowhere, there is no such thing. There is no GW-BASIC for Windows 7!
 
 I get this question to my contact form so often, I don't know why I haven't made a post or a page for it yet. GW-BASIC was last released in 1988 as you can see from any screenshot of its start screen. It's a 16-bit DOS executable that uses processor instructions no longer supported in modern, 64-bit CPU's / operating systems. Simply put: **GW-BASIC.EXE cannot run directly on Windows!** Don't lose hope, because this is where emulators come in. [DOSBox](http://www.dosbox.com) is the premier DOS emulator with the best support and works on multiple platforms (I use it on Lubuntu Linux). You'll just need a passing knowledge of DOS and how a filesystem works, but otherwise running in an emulator is straight forward, like running a virtual PC from ye olden times inside your fancy new toy.
 
-With all that said, I'm particularly talking about 64-bit editions.  It is (maybe) posssible to start on the 32-bit editions.
+With all that said, I'm particularly talking about 64-bit editions.  It is (maybe) possible to start on the 32-bit editions.
 
 According to Jason Donahue...
 

@@ -22,7 +22,7 @@ I am familiar with most of the aspects of programming language and how they appl
 
 That's a somewhat interesting question! Both the modern and old languages pose problems for teachers,
 
-GWbasic is great in terms of simplicity, but it lacks some mechanisms that make real structured programming possible, and often encouraged bad coding habits in learners. That being said I learned on it, and it was a good way to start for me, but better alternatives exist nowadays although it would be a nice history lesson.
+GW-basic is great in terms of simplicity, but it lacks some mechanisms that make real structured programming possible, and often encouraged bad coding habits in learners. That being said I learned on it, and it was a good way to start for me, but better alternatives exist nowadays although it would be a nice history lesson.
 
 Qbasic (and the modern equivalent QB64) are better in that simpler code is still supported, but proper structuring can be easier accomplished with subroutines. It's not object oriented so it's not too complex. The downside of Qbasic is the lack of relevance to modern computing, and having to run it in a DOS emulator. I haven't really used QB64 so I can't really comment on it.
 
@@ -52,13 +52,13 @@ You're probably right that the advanced features of some languages will be too m
 
 So no one language is really a fit-all solution, you'll need to use one for beginners and another for more advanced students. I personally think Basic is fantastic for beginners, and some of the dialects have lots of documentation and books for beginners.
 
-Gwbasic unfortunately doesn't have much available for it. The reference manual is fortunately available online, and a few people have posted some code (such as Neil and myself). Its successor qbasic has much more information available, and even still has a thriving coding community.
+GW-basic unfortunately doesn't have much available for it. The reference manual is fortunately available online, and a few people have posted some code (such as Neil and myself). Its successor Qbasic has much more information available, and even still has a thriving coding community.
 
 #### [Pete](http://web.archive.org/web/20161121073734/http://testdome.com/) comments
 
 We started with Pascal in my high-school (around 1998). this gave us a good introduction to programming.
 
-However, these days I would recommend new programmers to start with some of those modern languages as mr Sparcie mentioned
+However, these days I would recommend new programmers to start with some of those modern languages as Mr. Sparcie mentioned
 
 #### Jaime (Caracas, Venezuela) comments
 
@@ -68,8 +68,8 @@ Cursé programacion en la universidad y no conocia ni siquiera el sistema operat
 
 #### [Bob Joy](http://web.archive.org/web/20161121073734/http://www.bobjoy.me/) comments
 
-I have often shown inquisitive adults what computer programming is using gwbasic. I would have them write a program or type in a few small programs and run them. For a few hours I would be a teacher. After this little 'teach in' they would walk away with a good idea of what a computer programmer does.
+I have often shown inquisitive adults what computer programming is using GW-Basic. I would have them write a program or type in a few small programs and run them. For a few hours I would be a teacher. After this little 'teach in' they would walk away with a good idea of what a computer programmer does.
 
-Separately , I have been carrying gwbasic around with me for years because I could do almost anything with it. That has changed recently because DOS shell isn't really DOS anymore. Plus , I have to use FreeBasic with the -QB(QBASIC emulator) just to run programs I wrote forty years ago on my own machines.
+Separately , I have been carrying GW-basic around with me for years because I could do almost anything with it. That has changed recently because DOS shell isn't really DOS anymore. Plus , I have to use FreeBasic with the -QB(QBASIC emulator) just to run programs I wrote forty years ago on my own machines.
 
-I miss the simplicity and size of GWBASIC.
+I miss the simplicity and size of GW-BASIC.
