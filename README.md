@@ -6,8 +6,10 @@
 
 ### NEWS ###
 
-**2020-05-21** Microsoft releases GW-BASIC circa 1983 as open source (MIT license).  You can find the official announcement [here](https://devblogs.microsoft.com/commandline/microsoft-open-sources-gw-basic/) and the [repo on github here](https://github.com/microsoft/GW-BASIC). I'll have to carve out some time to review the source. ;-)
-**2020-12-03** The original source has now been forked with some effort going into actually building it for "real use", see [Assembling Microsoft GW-BASIC from 1983, with MASM or JWasm](https://github.com/tkchia/GW-BASIC).  Additionally, this package has been made available as part of the [QEMU Advent Calendar for 2020](https://www.qemu-advent-calendar.org/2020/) (specifically, check out day #3).  Happy holidays!
+- **2021-05-18** Just a quick announcement to let everyone know that I've resumed work on *GW-BASIC for Windows* leveraging the latest Microsoft .NET versions.  I'm still trying to figure out how I want to deploy it (make it available) as well as make a few additional improvements; will update when I have that figured out.  
+- **2021-05-11** While working on my taxes, I discovered something... to my surprise, people appear to still be purchasing *GW-BASIC for Windows Phone* from the Microsoft Store (yes, for a phone that is pretty much dead, dead, dead).  To those individuals, THANK YOU!  
+- **2020-12-03** The original source has now been forked with some effort going into actually building it for "real use", see [Assembling Microsoft GW-BASIC from 1983, with MASM or JWasm](https://github.com/tkchia/GW-BASIC).  Additionally, this package has been made available as part of the [QEMU Advent Calendar for 2020](https://www.qemu-advent-calendar.org/2020/) (specifically, check out day #3).  Happy holidays!  
+- **2020-05-21** Microsoft releases GW-BASIC circa 1983 as open source (MIT license).  You can find the official announcement [here](https://devblogs.microsoft.com/commandline/microsoft-open-sources-gw-basic/) and the [repo on github here](https://github.com/microsoft/GW-BASIC). I'll have to carve out some time to review the source. ;-)  
 
 ---
 
@@ -37,23 +39,23 @@ Please allow me a moment to acknowledge Neil for originally starting this site. 
 
 ### Stories ###
 
-*Very interesting to come across your site.*
+Very interesting to come across your site.
 
-*I also took the self taught route with Basic. Firstly on a tiny computer plus TV monitor plus cassette tape deck to store my masterpieces in the early 80's. With the 49k memory of the Oracle there was no room for anything fancy. I did have the benefit of a booklet with basic commands, a short explanation of binary code and machine code language with a page or two on how to switch pixels on and off to create unique character sets.*
+I also took the self taught route with Basic. Firstly on a tiny computer plus TV monitor plus cassette tape deck to store my masterpieces in the early 80's. With the 49k memory of the Oracle there was no room for anything fancy. I did have the benefit of a booklet with basic commands, a short explanation of binary code and machine code language with a page or two on how to switch pixels on and off to create unique character sets.
 
-*As you say it's a shame the Basic language is all but forgotten. Later in the mid 80's I used it to write a stock (over 8,000 items)and bill of materials program which included 40 screen displays, each with 40 pre selected product combinations. There was also a searchable customer database, by name or postcode and a discount option which could be set by product or product group and applied to the customer profile. It was fast, efficient and used on the road by a team of 13 reps for 5 years.*
+As you say it's a shame the Basic language is all but forgotten. Later in the mid 80's I used it to write a stock (over 8,000 items)and bill of materials program which included 40 screen displays, each with 40 pre selected product combinations. There was also a searchable customer database, by name or postcode and a discount option which could be set by product or product group and applied to the customer profile. It was fast, efficient and used on the road by a team of 13 reps for 5 years.
 
-*A sub program converted the "space delimited" stock file from the company mainframe Linux format to quote and comma delimiting so Basic could read and re-asemble it correctly.*
+A sub program converted the "space delimited" stock file from the company mainframe Linux format to quote and comma delimiting so Basic cold read and re-asemble it correctly.
 
-*The original full version ran on a twin floppy disc machine from Tandy in the UK (Radio Shack). One disc for the program and one for the data. The data disc was encrypted and self deleted if used after the specified end date.*
+The original full version ran on a twin floppy disc machine from Tandy in the UK (Radio Shack). One disc for the program and one for the data. The data disc was encrypted and self deleted if used after the specified end date.
 
-*The stock was coded in this format 5ROT001 to 999 4MAC001-999 etc. It was a matter of getting the program to create DOS files using the 1st 5 characters as it read in a stock update then file the 99 entries into each one. To search for a product Dos found the file and basic searched 99 items.**
+The stock was coded in this format 5ROT001 to 999 4MAC001-999 etc. It was a matter of getting the program to create DOS files using the 1st 5 characters as it read in a stock update then file the 99 entries into each one. To search for a product Dos found the file and basic searched 99 items.
 
-*After typing in a stock code or partial stock code and pressing enter the item or group by page displayed immediately.
+After typing in a stock code or partial stock code and pressing enter the item or group by page displayed immediately.
 I still have a couple of GW Basic and Dos books I bought, although sadly I no longer have the Oracle or Tandy booklets.
-But there we are times change, although even nuclear power stations still use steam technology to drive the turbines and maybe, as we need to consider our energy consumption, one day Basic in some form will be used again. It would certainly reduce the load on servers moving and storing bloated files. Many business applications would work fine with numbered menu selection just requiring a key press.*
+But there we are times change, although even nuclear power stations still use steam technology to drive the turbines and maybe, as we need to consider our energy consumption, one day Basic in some form will be used again. It would certainly reduce the load on servers moving and storing bloated files. Many business applications would work fine with numbered menu selection just requiring a key press.
 
-*Regards, Brian Andrews. (retired)*
+Regards, Brian Andrews. (retired)
 
 ### Tidbits ###
 
