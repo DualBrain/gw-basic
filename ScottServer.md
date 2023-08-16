@@ -6,9 +6,10 @@
 
 ---
 
+This is a single-page reprinting of Thomas C. McIntire's website hosted at http://www.scottserver.org/basically/geewhiz.html. *(Rescued via Archive.org.)*
+
 ### The Incredible GW-BASIC Works of Thomas C. McIntire.
 This entire collection is now available as FREEWARE.
-*(Rescued via Archive.org.)*
 
 Tom McIntire has had a distinguished career as a programmer, most of which was concerned with creating business applications with GW-BASIC. In the course of doing this, he developed many tools to make his work easier and more efficient. He also collected over the years a great deal of information that was not only vital to the GW-BASIC programmer, but of use to almost any programmer. Here gathered together in one place is the information, tools and some of the programs. Formerly Shareware, he has kindly released them as Freeware.
 
