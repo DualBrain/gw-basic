@@ -6,9 +6,9 @@
 
 ### NEWS ###
 
-- **2021-05-18** Just a quick announcement to let everyone know that I've resumed work on *GW-BASIC for Windows* leveraging the latest Microsoft .NET versions.  I'm still trying to figure out how I want to deploy it (make it available) as well as make a few additional improvements; will update when I have that figured out.  
+- **2023-09-26** Looks like the project to build GW-BASIC using MASM/JWasm (mentioned below) has moved to [Microsoft GW-BASIC Interpreter Source Code](https://gitlab.com/tkchia/GW-BASIC); same project but moved over to GitLab.
 - **2021-05-11** While working on my taxes, I discovered something... to my surprise, people appear to still be purchasing *GW-BASIC for Windows Phone* from the Microsoft Store (yes, for a phone that is pretty much dead, dead, dead).  To those individuals, THANK YOU!  
-- **2020-12-03** The original source has now been forked with some effort going into actually building it for "real use", see [Assembling Microsoft GW-BASIC from 1983, with MASM or JWasm](https://github.com/tkchia/GW-BASIC).  Additionally, this package has been made available as part of the [QEMU Advent Calendar for 2020](https://www.qemu-advent-calendar.org/2020/) (specifically, check out day #3).  Happy holidays!  
+- **2020-12-03** The original source has now been forked with some effort going into actually building it for "real use", see ~~[Assembling Microsoft GW-BASIC from 1983, with MASM or JWasm](https://github.com/tkchia/GW-BASIC)~~.  Additionally, this package has been made available as part of the [QEMU Advent Calendar for 2020](https://www.qemu-advent-calendar.org/2020/) (specifically, check out day #3).  Happy holidays!  
 - **2020-05-21** Microsoft releases GW-BASIC circa 1983 as open source (MIT license).  You can find the official announcement [here](https://devblogs.microsoft.com/commandline/microsoft-open-sources-gw-basic/) and the [repo on github here](https://github.com/microsoft/GW-BASIC). I'll have to carve out some time to review the source. ;-)  
 
 ---
