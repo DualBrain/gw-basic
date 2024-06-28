@@ -1,8 +1,6 @@
-<iframe src="https://archive.org/embed/gwbasic.exe" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-
 # Gee Whiz
 
-> If you have any content you'd like to contribute here, please let me know [here](https://github.com/dualbrain/gw-basic).
+<iframe src="https://archive.org/embed/gwbasic.exe" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
 ## About this site
 
