@@ -4,6 +4,10 @@
 
 ---
 
+### Interpreters and compilers
+
+- [GW-BASIC 2026](https://github.com/evvaletov/gw-basic-2026): A C11 implementation for POSIX systems and DOS, with an ahead-of-time native compiler and a Jupyter kernel. [Runnable examples and graphics notebook](https://github.com/evvaletov/gw-basic-2026/blob/main/docs/demos.md).
+
 ### Full Command Reference
 
 Thomas Shaffner released *Microsoft GW-BASIC User's Guide and User's Reference* to the web and you can already [find copies of it](http://www.google.com/search?q=gw-basic+user+guide) easily (try [here](http://www.xs4all.nl/~hwiegman/gw-man/), [here](http://www.antonis.de/qbebooks/gwbasman/), [here](http://200.68.11.219/utiles/utiles/Descargas/Tutotial%20GW-BASIC/GW-MAN/) or [this PDF version](http://www.divonasperi.it/divona/tam/tecnologia/dow-all/GW%20Basic%20(inglese).pdf) which fits nicely on the Kindle screen). Download a ZIP archive of GWMAN on the [archived KindlyRat GWBASIC page](http://web.archive.org/web/20160304002711/http://www.basicprogramming.org/warehouse/kindly/GWBASIC.html) or on [my downloads](Download.md).
